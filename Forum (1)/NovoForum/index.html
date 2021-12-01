@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styleForum.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Nome do Fórum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Work+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!---------------------------- Header ------------------------------->
+
+    <div class = "header">
+        <div class = "containerLogo">
+           <img class = "logo" src="../cat.svg"/>
+           <span class = "tituloLogo"></span>
+        </div>
+        <div class = "opcoesHeader">
+           <div>
+             Novidades
+           </div>
+           <div>
+            Perfil
+          </div>
+          <div>
+            Fóruns
+          </div>
+        </div>
+        <div class = "opcoesUser">
+          <img src="../plus.svg"/>
+          <img class="iconeUserHeader" src="../gato.jpg"/>
+        </div>
+    </div>
+
+    <!---------------------------- Menu Esquerda ------------------------------->
+
+   <div class = "navEsquerda">
+       <div class = "navEsquerdaCategoria">
+          Favoritos
+       </div>
+       <div class = "filhosnavEsquerda">
+        <div class="forumNavEsquerda"> <img src="../cat.svg"/> <div>Fórum teste</div></div>
+        <div class="forumNavEsquerda"> <img src="../cat.svg"/> <div>Fórum teste</div></div>
+      </div>
+       <div class = "navEsquerdaCategoria">
+          Recentes
+       </div>
+       <div class = "filhosnavEsquerda">
+          <div class="forumNavEsquerda"> <img src="../cat.svg"/> <div>Fórum teste</div></div>
+          <div class="forumNavEsquerda"> <img src="../cat.svg"/> <div>Fórum teste</div></div>
+       </div>
+       <div class = "navEsquerdaCategoria">
+          Mais Acessados
+       </div>
+       <div class = "filhosnavEsquerda">
+        <div class="forumNavEsquerda"> <img src="../cat.svg"/> <div>Fórum teste</div></div>
+        <div class="forumNavEsquerda"> <img src="../cat.svg"/> <div>Fórum teste</div></div>
+      </div>
+   </div>
+
+   <!---------------------------- Conteúdo Principal ------------------------------->
+
+   <div class = "paiMain">
+    <div class = "main">
+      
+      <!---------------------------- Form de criação ode forum ------------------------------->
+
+      <div class = "containerLogin">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><img class = "iconLogin" src="../email.svg"/>Nome do Fórum</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><img class = "iconLogin" src="../page.svg"/>Detalhes do Fórum</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><img style = "width:20px" class = "iconLogin" src="../imageIcon.svg"/>Ícone</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-primary botaoLogin">Criar Fórum</button>
+          </form>
+    </div>
+    </div>
+  </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
